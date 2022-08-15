@@ -1,19 +1,30 @@
 
-body {
+.body {
     /* The image used */
 
     height: 100vh;
     background: url("../img/5.jpg") no-repeat center;
     background-size: cover;
-    background-attachment: scroll
+}
+
+
+.modal-backdrop{
+    --bs-backdrop-opacity: 0.6;
+}
+.contact{
+    margin-left: auto;
+    margin-right: auto;
+    width:351px;
+    height:711px;
+    background: url("../img/temp-bg.png") no-repeat center;
 
 }
-.iphone{
-    width:169px;
-    height:347px;
-    background: url("../img/iphone-no-bg.png") no-repeat center;
 
+.pos-set{
+    left: 26%;
+    top:75%;
 }
+
 
 .bg{
     width: 300px;
